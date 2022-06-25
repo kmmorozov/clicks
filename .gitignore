@@ -2,3 +2,4 @@
 *.csv 
 ##json files 
 *.json
+.gitattributes
