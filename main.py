@@ -47,7 +47,6 @@ if __name__ == '__main__':
     load_dotenv()
     cli_args = get_cli_args()
     user_link = cli_args.url
-    #user_link = input('Введите Вашу ссылку в вормате http/https: ')
     url_components = urllib.parse.urlparse(user_link)
     link = '{}{}'.format(
         url_components.netloc,
