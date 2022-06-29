@@ -23,9 +23,10 @@ pip install -r requirements.txt
 ```
 
 ### Как запустить
-
+```
 python3 main.py https://your_link.ru 
-
+```
+Вместо https://your_link.ru  используйте Вашу ссылку
 ### Цель проекта
 
 Код написан в образовательных целях на онлайн-курсе для веб-разработчиков [dvmn.org](https://dvmn.org/).
